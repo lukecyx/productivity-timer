@@ -6,11 +6,8 @@ CYMBALS_WAV = "./cymbals.wav"
 BIG_BEN_WAV = "./chime_big_ben.wav"
 CHEERING_WAV = "./cheering.wav"
 INTERVAL_TIME = (1 * 60) * 20  # 20 minutes.
-INTERVAL_TIME = 3
 INTERVAL_BREAK_TIME = 20  # 20 seconds.
-INTERVAL_BREAK_TIME = 5
 INTERVAL_BLOCK_BREAK_TIME = (1 * 60) * 30  # 30 minutes.
-INTERVAL_BLOCK_BREAK_TIME = 10
 
 
 def create_wav_obj(wav_file: str) -> sa.WaveObject:
